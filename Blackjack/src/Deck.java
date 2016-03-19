@@ -13,7 +13,16 @@ public class Deck
 	boolean autoShuffle = false;
 	int added = 0;
 	int maxCards = 52;
-
+	
+	//what is this fucking hell 
+	public String testGit(){
+		
+	}
+	/*
+	 * god damn it 
+	 * 
+	 */
+	
 	public Deck(String fileName) throws IOException
 	{
 		all = ImageIO.read(new File(fileName));
